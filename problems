@@ -1,6 +1,6 @@
 cusp：下载最新的cusp文件，解压下载的压缩包，例如cusplibrary-0.5.1；
       将子文件中的cusp拷贝至所使用的路径中，例如/usr/local/cuda-9.0/include；
-      在使用cusp的时候会用到thrust库，一般在cuda中会有，但是使用cusp的时候可能会提醒某个路径中缺少某个.h文件，例如launch_caculator.h，在网上找到 这       个文件，放入对应的路径中。
+      在使用cusp的时候会用到thrust库，一般在cuda中会有，但是使用cusp的时候可能会提醒某个路径中缺少某个.h文件，例如launch_caculator.h，在网上找到文件，放入对应的路径中。
 viennacl:和cusp一样，解压后将viennacl拷贝至相应的路径
          viennacl可以支持不同的运行环境cuda，opencl
          viennavl中有些只能在opencl的后端运行。例如spai
